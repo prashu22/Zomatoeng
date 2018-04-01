@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="Filters"
+        android:textAlignment="center"
+        android:textSize="20dp"/>
+<EditText
+    android:layout_marginTop="30dp"
+    android:layout_width="150dp"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content"
+    android:id="@+id/city"
+    android:hint="City"/>
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/cuisines"
+        android:hint="Cuisines"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/filter"
+        android:layout_marginBottom="30dp"
+        android:text="filter"/>
+
+
+
+</LinearLayout>
